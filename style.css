@@ -1,0 +1,434 @@
+@font-face {
+    font-family: 'HankenGrotesk-VariableFont_wght';
+    src: url('./results-summary-component-main/assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family:'HankenGrotesk-Bold';
+    src: url('./results-summary-component-main/assets/fonts/static/HankenGrotesk-Bold.ttf');
+}
+@font-face {
+    font-family:'HankenGrotesk-ExtraBold';
+    src: url('./results-summary-component-main/assets/fonts/static/HankenGrotesk-ExtraBold.ttf');
+}
+@font-face {
+    font-family:'HankenGrotesk-Medium';
+    src: url('./results-summary-component-main/assets/fonts/static/HankenGrotesk-Medium.ttf');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+
+    box-sizing: border-box;
+    
+    margin: 0;
+    
+    padding: 0;
+    
+    
+    
+    }
+
+
+
+
+.container{
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+
+
+}
+
+
+
+.wrapper{
+
+margin-top: 5rem;
+width: 50rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 25rem;
+
+-webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.43); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.43);
+
+border-radius: 1.5rem;
+
+
+}
+
+.left-blue{
+
+width: 50%;
+
+background-color: rgb(96, 64, 251);
+
+height: 25rem;
+border-radius: 1.5rem;
+display: flex;
+
+flex-direction: column;
+
+
+
+}
+
+
+/******************************left side blue***********************/
+.h-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5rem;
+
+
+
+}
+
+.h2-text{
+
+    font-family:'HankenGrotesk-Medium';
+    color:rgb(215, 204, 255)
+}
+
+
+.paren{
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.cricle-parent{
+    
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 2rem;
+height: 8rem;
+background-color: rgb(74, 36, 207);
+border-radius: 50%;
+width: 8rem;
+
+}
+
+/*.cricle{}*/
+
+.number{
+
+    text-align: center;
+    color: rgb(241, 243, 255);
+    font-family: 'HankenGrotesk-ExtraBold';
+    font-size: 3rem;
+
+}
+
+
+
+.text-100{
+    text-align: center;
+    color:rgb(184, 185, 255);
+    font-size: 0.8rem;
+}
+
+
+.bottom{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.6rem;
+
+    
+}
+
+.p-box{
+
+
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1.2rem;
+
+
+}
+
+
+.bottom-text{
+
+    color: azure;
+    font-family: 'HankenGrotesk-VariableFont_wght';
+}
+
+
+
+.content-bottom{
+
+
+    line-height: 1.4rem;
+    color:rgb(184, 185, 255);
+
+    font-family: 'HankenGrotesk-VariableFont_wght';
+
+}
+
+
+/******************************right side white***********************/
+
+
+
+.right-white{
+
+
+    width: 50%;
+    height: 25rem;
+    font-family:'HankenGrotesk-VariableFont';
+    font-size: 0.5rem;
+   
+
+
+
+}
+
+
+.summary-parent{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+}
+
+.sum{
+
+
+    font-family: 'HankenGrotesk-ExtraBold'
+}
+
+
+.reactions{
+
+   justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    margin:  2rem 2rem;
+    font-size: 1rem;
+}
+
+.reaction,.memory,.verbal,.visual{
+
+ 
+    
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 2.5rem;
+    margin-bottom: 0.8rem;
+ 
+}
+
+.reaction{
+
+    background-color: rgb(255, 246, 245);
+}
+
+
+.img-and-react,.img-and-memory,.img-and-verbal,.img-and-visual{
+
+   
+justify-content: space-between;
+align-items: center;
+    display: flex;
+    position: relative;
+
+}
+
+.im-re{
+
+  position: absolute;
+right: 5.3rem;
+
+}
+
+.react{
+
+    font-family:'HankenGrotesk-VariableFont';
+    color: rgb(255, 136, 138);
+}
+
+.numbers{
+    font-family: 'HankenGrotesk-Bold';
+}
+
+.num-span{
+
+
+color: rgb(183, 186, 201);
+
+
+}
+
+
+
+
+
+
+
+
+.memory{
+
+    background-color: rgb(254, 251, 242);
+}
+
+
+
+
+.im-me{
+
+    position: absolute;
+    right: 4.7rem;
+}
+
+.Memory{
+
+    font-family:'HankenGrotesk-VariableFont';
+    color: rgb(242, 195, 105);
+}
+
+
+
+
+.verbal{
+
+    background-color: rgb(242, 251, 250);
+}
+
+
+.im-ve{
+
+    position: absolute;
+    right: 4rem;
+}
+
+
+.Verbal-color{
+    
+    font-family:'HankenGrotesk-VariableFont';
+    color: rgb(38, 173, 141);
+
+
+}
+.visual{
+
+    background-color: rgb(241, 243, 255);
+}
+
+.im-vi{
+
+    position: absolute;
+    right: 3.8rem;
+}
+
+.Visual{
+
+    font-family:'HankenGrotesk-VariableFont';
+    color: rgb(25, 33, 134);
+}
+
+
+
+
+
+
+
+
+.parent-wraper-link{
+
+    display: flex;
+    justify-content: center;
+   
+
+
+}
+
+.a-wraper{
+
+width: 60%;
+
+background-color: rgb(48, 59, 89);
+display: flex;
+justify-content: center;
+align-items: center;
+height: 2rem;
+margin-top: 1rem;
+text-align: center;
+border-radius: 1rem;
+
+cursor:pointer;
+}
+
+.a-link{
+  
+    text-decoration: none;
+     color: white;
+     font-family: 'HankenGrotesk-VariableFont';
+     font-size: medium;
+ 
+      
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
